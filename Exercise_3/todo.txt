@@ -1,0 +1,2 @@
+-Features :
+    Display a message when the grid is complete

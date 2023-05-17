@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#grid {
+    width: 318px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 1px solid black;
+    margin: 3px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-one {
+    height: min-content;
+    width: min-content;
+}
