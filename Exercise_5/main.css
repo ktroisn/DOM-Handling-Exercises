@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#board {
+    width: 640px;
+    line-height: 0;
+    border: 20px blue solid;
+}
+
+.cell {
+    background: none;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
